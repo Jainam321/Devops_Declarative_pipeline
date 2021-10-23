@@ -12,17 +12,18 @@ class App extends React.Component{
             <div className="image">
             </div>
           </div>
+          <div><h1>Login Form</h1></div>
           <div className="body-form">
            <form>
               <div className="input-group mb-3">
    <div className="input-group-prepend">
-    <span className="input-group-text"><i class="fa fa-user"></i></span>
+    <span className="input-group-text"><i className="fa fa-user"></i></span>
   </div>
   <input type="text" className="form-control" placeholder="Username" />
 </div>
  <div className="input-group mb-3">
    <div className="input-group-prepend">
-    <span className="input-group-text"><i class="fa fa-lock"></i></span>
+    <span className="input-group-text"><i className="fa fa-lock"></i></span>
   </div>
   <input type="text" className="form-control" placeholder="Password" />
 </div>
